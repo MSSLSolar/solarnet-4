@@ -56,4 +56,5 @@ workshop starts to avoid delays due to the network. The data needed is available
 in [the material section](/material/).
 
 <br><br><br>
-#### Image source: [Orizuru](https://upload.wikimedia.org/wikipedia/commons/2/2f/Tsuru_wiki.svg) - <img width="60" src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg">
+
+*Image source: [Orizuru](https://upload.wikimedia.org/wikipedia/commons/2/2f/Tsuru_wiki.svg) - <img width="60" src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg">*
