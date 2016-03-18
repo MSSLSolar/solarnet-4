@@ -1,0 +1,72 @@
+gems: [jekyll-paginate]
+
+# Site settings
+title:  <img class="" width="90" src="/img/solarnet_logo_svg.png" alt="summer school">
+description: MAD for Jekyll
+logo: favicon.png
+discus_shortname: MADness
+header-img: img/home-bg.jpg
+email: mad@ness.com
+url: http://msslsolar.github.io/solarnet-4
+search: false
+share: false
+comments: false
+
+# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
+readtime: false
+
+# Specify the average Words per minute. If not defined, 180 will be used
+wpm: 200
+
+# Owner/author information
+owner:
+  name:   MSSLSolar
+  avatar: avatar.jpg
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:   Mullard Space Science Laboratory - University College London
+
+# Social networking links used in footer. Update and remove as you like.
+twitter_username: MAD4Jekyll
+facebook_username: MAD4Jekyll
+github_username: MAD4Jekyll
+deviantart_username: MAD4Jekyll
+500px_username: MAD4Jekyll
+flickr_username: MAD4Jekyll
+instagram_username: MAD4Jekyll
+
+ 
+# Internal nav
+nav:
+ instructions: "source_url/instructions/"
+ material: "source_url/material/"
+ results: "source_url/results/"
+
+
+# Server
+destination:      	 ./_site
+port:             	 4000
+
+# Build settings
+highlighter:         pygments
+markdown:           redcarpet
+redcarpet:
+    extensions:     
+     - Hard_wrap
+     - no_intra_emphasis
+     - strikethrough
+     - fenced_code_blocks
+     - autolink
+     - tables
+     - with_toc_data
+     - highlight
+     - footnotes
+    input:          GFM
+sass:
+    style:          :compressed
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+slugify: "pretty"
+
+# Analytics and webmaster tools stuff goes here
+paginate: 5
+
+

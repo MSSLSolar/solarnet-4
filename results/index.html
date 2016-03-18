@@ -1,0 +1,66 @@
+---
+layout: page
+title: "Results"
+description: "this is what you will get"
+header-img: "img/results.jpg"
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+
+  
+<!-- CSS -->
+	<link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen" />
+
+	<!-- Modernizr -->
+  <script src="../js/modernizr.js"></script>
+</head>
+
+    <body>
+  <!-- slider -->
+    <section class="slider">
+	<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="http://solarb.mssl.ucl.ac.uk/SolarB/nuggets/2016jan/fig1_jet_bg.png" />
+<p class="flex-caption">after session 2</p>
+    </li>
+    <li>
+      <img src="http://solarb.mssl.ucl.ac.uk/SolarB/nuggets/2015apr/plot_aia_ch.png" />
+<p class="flex-caption">From session 1</p>
+    </li>
+    <li>
+      <img src="http://farm5.static.flickr.com/4124/5209051052_05842ac38d.jpg" />
+<p class="flex-caption">before session 5</p>
+    </li>
+      </ul>
+</div>
+      </section>
+
+<!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+  <!-- FlexSlider -->
+  <script defer src="../js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        slideshow: "false",
+        slideshowSpeed: "12000",
+        pausePlay: "true",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+<br>
+</body></html>
