@@ -1,7 +1,7 @@
 gems: [jekyll-paginate]
 
 # Site settings
-title:  <img class="" width="90" src="/img/solarnet_logo_svg.png" alt="summer school">
+title:  <img class="" width="90" src="/solarnet-4/img/solarnet_logo_svg.png" alt="summer school">
 description: MAD for Jekyll
 logo: favicon.png
 discus_shortname: MADness
@@ -47,8 +47,8 @@ destination:      	 ./_site
 port:             	 4000
 
 # Build settings
-highlighter:         pygments
-markdown:           redcarpet
+highlighter:         rouge
+markdown:           kramdown
 redcarpet:
     extensions:     
      - Hard_wrap
