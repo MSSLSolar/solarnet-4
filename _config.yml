@@ -1,12 +1,9 @@
-gems: [jekyll-paginate]
-
 # Site settings
 title:  <img class="" width="90" src="/solarnet-4/img/solarnet_logo_svg.png" alt="summer school">
-description: MAD for Jekyll
+description: SOLARNET 4th summer school
 logo: favicon.png
-discus_shortname: MADness
 header-img: img/home-bg.jpg
-email: mad@ness.com
+email: solarnet@
 url: http://msslsolar.github.io/solarnet-4
 search: false
 share: false
@@ -26,14 +23,9 @@ owner:
   description:   Mullard Space Science Laboratory - University College London
 
 # Social networking links used in footer. Update and remove as you like.
-twitter_username: MAD4Jekyll
-facebook_username: MAD4Jekyll
-github_username: MAD4Jekyll
-deviantart_username: MAD4Jekyll
-500px_username: MAD4Jekyll
-flickr_username: MAD4Jekyll
-instagram_username: MAD4Jekyll
-
+twitter_username: mssl_solar
+facebook_username: mssl_solar
+github_username: MSSLSolar
  
 # Internal nav
 nav:
@@ -49,24 +41,10 @@ port:             	 4000
 # Build settings
 highlighter:         rouge
 markdown:           kramdown
-redcarpet:
-    extensions:     
-     - Hard_wrap
-     - no_intra_emphasis
-     - strikethrough
-     - fenced_code_blocks
-     - autolink
-     - tables
-     - with_toc_data
-     - highlight
-     - footnotes
-    input:          GFM
 sass:
     style:          :compressed
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 slugify: "pretty"
 
-# Analytics and webmaster tools stuff goes here
-paginate: 5
 
 
