@@ -26,6 +26,9 @@ If you are using Linux or Mac OS you then could create a *ssw* file to run IDL
 with solarsoft from the bash terminal. Follow the instructions in [this blogpost](http://dpshelio.github.io/blog/2015/10/08/GetBash.html)
 and change the variables defined and the `SSW_INSTR` accordingly (using the list
 of instruments above).
+You can also
+[download this two files](https://gist.github.com/dpshelio/0b01261c31a7a4de21ea2f8a6eb8c4f9)
+which are the ones used by the backup virtual machine.
 
 If you are a OS X user you will need to install [XQuartz](http://www.xquartz.org/).
 
@@ -54,6 +57,23 @@ workshop.
 We are going to work with a lot of data, you should downloaded it before the
 workshop starts to avoid delays due to the network. The data needed is available
 in [the material section](/material/).
+
+
+# If everyone fails...
+
+[Don't Panic](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker's_Guide_to_the_Galaxy#Don.27t_Panic).
+We have prepared a virtual machine with all the software used so you can follow all the programme.
+First you will need to download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+Download [solarnet4 virtualmachine]("http://www.mssl.ucl.ac.uk/missions/corpita/solarnet4/data/SOLARNET_fedora.ova) (10GiB). Once The VirtualBox is installed and the virtual machine
+instance downloaded, open VirtualBox and select `Import appliance` from the `File` menu. 
+Select the file downloaded previously `SOLARNET_fedora.ova` and click `next` and `import`.
+
+If everything goes well you should have a new virtual machine in the menu which
+provides you with a Linux Fedora 24 system. This includes: IDL 8.5, Paraview and
+some of the data to be used during the school. After starting the virtual
+machine, to run `solarsoft`, you will have just to open a terminal and write
+`ssw`. It will prompt you asking for the password for the licence which will be
+provided during the workshop.
 
 <br><br><br>
 
