@@ -64,7 +64,7 @@ in [the material section](/material/).
 [Don't Panic](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker's_Guide_to_the_Galaxy#Don.27t_Panic).
 We have prepared a virtual machine with all the software used so you can follow all the programme.
 First you will need to download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
-Download [solarnet4 virtualmachine]("http://www.mssl.ucl.ac.uk/missions/corpita/solarnet4/data/SOLARNET_fedora.ova) (10GiB). Once The VirtualBox is installed and the virtual machine
+Download [solarnet4 virtualmachine](http://www.mssl.ucl.ac.uk/missions/corpita/solarnet4/data/SOLARNET_fedora.ova) (10GiB). Once The VirtualBox is installed and the virtual machine
 instance downloaded, open VirtualBox and select `Import appliance` from the `File` menu. 
 Select the file downloaded previously `SOLARNET_fedora.ova` and click `next` and `import`.
 
