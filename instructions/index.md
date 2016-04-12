@@ -59,7 +59,7 @@ workshop starts to avoid delays due to the network. The data needed is available
 in [the material section](/material/).
 
 
-# If everyone fails...
+# If everything fails...
 
 [Don't Panic](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker's_Guide_to_the_Galaxy#Don.27t_Panic).
 We have prepared a virtual machine with all the software used so you can follow all the programme.
